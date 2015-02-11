@@ -15,7 +15,8 @@ truly keep while providing all the functionality that the end-user desires from
 their device. While these assumptions can keep you safe in some circumstances,
 they also make you part of a large, appealing target and they do break down,
 often. So people who want to be relatively assured of the privacy of their
-communication on Android based Operating Systems
+communication on Android based Operating Systems should be in control of their
+devices in every way they possibly can.
 
 ###Rule 0: If you don't need it, assume it's malware
 
@@ -293,9 +294,13 @@ included to discuss the issues surrounding rooting and because it is required
 for those who wish to de-bloat a Stock system without compiling Android from 
 source code for their device.
 
+####Why you should understand rooting
   1. **Why rooting is a security risk and why you should do it anyway**
   2. **...Unless your rooter has these characteristics**
-  3. **You should still root if you can. Do it this way**
+
+####You should still root if you can. Do it this way
+  1. 
+  2. 
 
 #####Appendix 4
   * **Upkeep:**
@@ -363,4 +368,5 @@ Unfinished Sections:
 
 #####Appendix 14
   * **Upkeep:**
-  * **Notes:**
+  * **Notes:**# doablesec
+Basic Android security guide I put together for some of my friends. Incomplete but I'm publishing anyway. Not going to hurt.
