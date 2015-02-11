@@ -215,7 +215,8 @@ observe you entering it. A secondary password would keep such an observer from
 being able to use the screen-unlock password to attack a powered-down device.
 Since this is not supported in the operating system, keep your disk encrypted
 but use a second layer of encryption and passwords for sensitive information
-like the Instant Messengers and Encrypted Notepads we will discuss later.###3 Basic System Management - App Store
+like the Instant Messengers and Encrypted Notepads we will discuss later.
+###3 Basic System Management - App Store
 
   1. **The Problem with the Play Store** many people advocate the use of the
 Google Play Store for a few of it's advantages. The Google Play Store lets app
@@ -305,6 +306,7 @@ source code for their device.
 #####Appendix 4
   * **Upkeep:**
   * **Notes:**
+
 
 Doable Privacy Instructions for Android
 =======================================
