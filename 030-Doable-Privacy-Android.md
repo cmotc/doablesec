@@ -3,9 +3,9 @@
   1. **The Problem with the Play Store** many people advocate the use of the
 Google Play Store for a few of it's advantages. The Google Play Store lets app
 developers sign their apps using their own cryptographic signatures, for one,
-which many app stores do not. It also sometimes recieves updates before other
+which many app stores do not. It also sometimes receives updates before other
 app stores do. However, those pale in comparison with it's disadvantages. The
-first and foremost disadvantange is the seemingly total lack of meaningful
+first and foremost disadvantage is the seemingly total lack of meaningful
 auditing of the apps that are included in the Play Store. On a single search
 for a more-or-less benign term like "Chess Game" it is possible to find half
 a dozen instances of apps that ask for inappropriate or excessive permissions
@@ -23,7 +23,7 @@ meaningfully auditing the code for malicious inclusions and anti-features.
 Anti-Features which don't disqualify an app from being included in F-Droid must
 be explicitly listed in the app's description in order to allow the user the
 oppourtunity to make a conscious decision to use that app or not. Using F-Droid
-means you are much less likely to recieve a malicious app or update from your
+means you are much less likely to receive a malicious app or update from your
 app store. Installing F-Droid will require you go into your phone's settings and
 enable installing apps from "Untrusted" sources.
 
@@ -62,7 +62,7 @@ as they become available.
   * **Notes:** You should still avoid installing anything unnecessary, even
 though F-Droid provides reasonable assurance apps are not created with malicious
 intent, code is hard to create and vulnerabilities are easy to implement by
-accident in even the best of circumstances. Judgement will always be key to
+accident in even the best of circumstances. Judgment will always be key to
 serious security.
   * **Developers/Aspiring Developers:** F-Droid is a responsive, vibrant
 community for people who want to publish Free and Open Source apps for Android.

@@ -95,7 +95,7 @@ vulnerability would visibly leak information as it was transmitted. The next
 layer of importance is the Operating System, which provides an interface for
 people to write the programs you use from day to day like your web browser or 
 your word processor. The operating system does this by providing small, 
-efficient programs which pass messages to eachother in order to process 
+efficient programs which pass messages to each-other in order to process 
 them in the correct order.
 
   2. **Get Updates**
@@ -123,7 +123,7 @@ a deliberate backdoor or vulnerability because you can, at any time, review
 the instructions that make up the operating system. The most popular Free and/or
 Open Source ROM's are [CyanogenMod](https://www.cyanogenmod.com), 
 [Replicant](https://www.replicant.us), [OmniROM](https://www.omnirom.com),
-and these are capable of recieving updates from the Operating System developers. 
+and these are capable of receiving updates from the Operating System developers. 
 If your device isn't officially supported by one of these ROM's, you can either
 find someone who has ported a Free and Open Source ROM to your device on a site 
 like XDA-Developers, use that ROM, and *actively contribute reports of your*  
@@ -159,7 +159,7 @@ entirely if at all possible, but it is unlikely that this will be possible.
 It is also unlikely that all firmware blobs contain such backdoors and it's also
 unlikely that these backdoors would be triggered lightly, as when it became
 active it's transmissions would become visible. Demand cooperation with Free and
-Open Source driver and firmware developers from manufactuers whenever possible.
+Open Source driver and firmware developers from manufacturers whenever possible.
 ###2 Basic System Management - Device Encryption
 
 **Goal:** Make it prohibitively difficult for an attacker who can physically
@@ -265,7 +265,7 @@ through the client, which is the web interface in your web browser
   * Address: An "Address" is a piece of information that represents the
 destination of a message. It is also a type of "Metadata," which is information
 about a message not necessarily related to the content itself. Your address can,
-but does not have to, give away your location when you send or recieve messages.
+but does not have to, give away your location when you send or receive messages.
 That is what Tor is for, and some forms of peer-to-peer communication offer
 this type of protection as well.
   * Peer-To-Peer: "Peer-To-Peer" refers to methods which require no intervention
@@ -282,9 +282,9 @@ the strength of the encryption while the eavesdropping occurred.
   1. **The Problem with the Play Store** many people advocate the use of the
 Google Play Store for a few of it's advantages. The Google Play Store lets app
 developers sign their apps using their own cryptographic signatures, for one,
-which many app stores do not. It also sometimes recieves updates before other
+which many app stores do not. It also sometimes receives updates before other
 app stores do. However, those pale in comparison with it's disadvantages. The
-first and foremost disadvantange is the seemingly total lack of meaningful
+first and foremost disadvantage is the seemingly total lack of meaningful
 auditing of the apps that are included in the Play Store. On a single search
 for a more-or-less benign term like "Chess Game" it is possible to find half
 a dozen instances of apps that ask for inappropriate or excessive permissions
@@ -302,7 +302,7 @@ meaningfully auditing the code for malicious inclusions and anti-features.
 Anti-Features which don't disqualify an app from being included in F-Droid must
 be explicitly listed in the app's description in order to allow the user the
 oppourtunity to make a conscious decision to use that app or not. Using F-Droid
-means you are much less likely to recieve a malicious app or update from your
+means you are much less likely to receive a malicious app or update from your
 app store. Installing F-Droid will require you go into your phone's settings and
 enable installing apps from "Untrusted" sources.
 
@@ -341,7 +341,7 @@ as they become available.
   * **Notes:** You should still avoid installing anything unnecessary, even
 though F-Droid provides reasonable assurance apps are not created with malicious
 intent, code is hard to create and vulnerabilities are easy to implement by
-accident in even the best of circumstances. Judgement will always be key to
+accident in even the best of circumstances. Judgment will always be key to
 serious security.
   * **Developers/Aspiring Developers:** F-Droid is a responsive, vibrant
 community for people who want to publish Free and Open Source apps for Android.
@@ -359,14 +359,51 @@ source code for their device. Rooting also allows you to use certain
 applications to block applications from sending information using elevated
 permissions and a firewall.
 
-####Why you should understand rooting
-  1. **Why rooting is a security risk and why you should do it anyway:** Every
-root guide you will read will disclaim
-  2. **...Unless your rooter has these characteristics:**
+####What Is Rooting for the Purposes of our Discussion?
+For the purposes of this set of instructions, Rooting is a necessary step in the
+process of assuring you are in complete control of the what the programs on your
+device do at all times. It is the process of obtaining full, administrative
+privilege over your devices settings, and contents. This is necessary because
+many of Android's features are used to transmit data back to various parties
+concerned with the operation of your device, like the manufacturer or Google.
+Even if the information is never misused by those parties, it can easily be
+eavesdropped upon from many locations in the network by unscrupulous characters
+and as such should be disabled on any phone used for sensitive communication.
 
-####You should still root if you can. Do it this way
-  1. 
-  2. 
+####Why you should understand rooting
+**Why rooting is a security risk and why you should do it anyway:** Every
+root guide you will read will disclaim the security risks of rooting to you, but
+not every security guide will disclaim what those risks actually are. Sometimes,
+that's because the risks are so low, relatively speaking, that the people
+adapting the root exploits are not aware of them. There are only 2 risks really
+associated with rooting your device.
+
+  1. **When you root your device, you must take full responsibility for the**
+contents of your device. When you install an app which uses root to it's 
+advantage, it will be capable of asking you for root privileges in order to take
+advantage of system-wide permissions. If those apps are malicious, then they 
+will ask you for those same permissions and there is very little way to tell.
+Rooting gives you control, but with power comes the ability to make mistakes.
+Without rooting, one must accept the mistakes left behind by the manufacturer.
+  2. **Root apps are just root exploits without malicious mechanisms.** In order
+to root your phone, you'll have to execute an exploit(A "Hack" in the common
+parlance) which gives you the ability to change system-wide settings on your
+phone. Those same exploits can be embedded in malicious apps which will attempt
+to root your phone and give control not to you, but to some remote agent. Only
+use root apps which are widely reviewed and reputable, such as TowelRoot, and
+only if you cannot install a pre-rooted ROM.
+
+####Stuck with a Stock ROM? You should still root if you can. Do it this way
+It is also possible to root your device without trusting an app by executing
+the so-called "Master Key" exploit from your computer with your phone plugged
+in. In order to do this, you'll need to use a GNU+Linux computer with the 
+Android Debug Bridge and Android Asset Packaging Tool installed.
+
+  1. First, download the mkbreak generic exploit for the Master Key from the
+source code repository as github. [mkbreak by Saurik](https://github.com/robertmillan/mkbreak/archive/master.zip)
+  2. Unzip the file and open a terminal in the mkbreak-master directory.
+  3. Run the command ./doit.sh and follow the text instructions displayed in the
+terminal.
 
 #####Appendix 4
   * **Upkeep:**
@@ -375,7 +412,8 @@ root guide you will read will disclaim
 
 #####Appendix 5
   * **Upkeep:**
-  * **Notes:**###6 Basic System Management - Hardening with Secdroid
+  * **Notes:**
+###6 Basic System Management - Hardening with Secdroid
 
 #####Appendix 6
   * **Upkeep:**

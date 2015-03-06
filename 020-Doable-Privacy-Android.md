@@ -103,7 +103,7 @@ through the client, which is the web interface in your web browser
   * Address: An "Address" is a piece of information that represents the
 destination of a message. It is also a type of "Metadata," which is information
 about a message not necessarily related to the content itself. Your address can,
-but does not have to, give away your location when you send or recieve messages.
+but does not have to, give away your location when you send or receive messages.
 That is what Tor is for, and some forms of peer-to-peer communication offer
 this type of protection as well.
   * Peer-To-Peer: "Peer-To-Peer" refers to methods which require no intervention

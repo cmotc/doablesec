@@ -21,7 +21,7 @@ vulnerability would visibly leak information as it was transmitted. The next
 layer of importance is the Operating System, which provides an interface for
 people to write the programs you use from day to day like your web browser or 
 your word processor. The operating system does this by providing small, 
-efficient programs which pass messages to eachother in order to process 
+efficient programs which pass messages to each-other in order to process 
 them in the correct order.
 
   2. **Get Updates**
@@ -49,7 +49,7 @@ a deliberate backdoor or vulnerability because you can, at any time, review
 the instructions that make up the operating system. The most popular Free and/or
 Open Source ROM's are [CyanogenMod](https://www.cyanogenmod.com), 
 [Replicant](https://www.replicant.us), [OmniROM](https://www.omnirom.com),
-and these are capable of recieving updates from the Operating System developers. 
+and these are capable of receiving updates from the Operating System developers. 
 If your device isn't officially supported by one of these ROM's, you can either
 find someone who has ported a Free and Open Source ROM to your device on a site 
 like XDA-Developers, use that ROM, and *actively contribute reports of your*  
@@ -85,4 +85,4 @@ entirely if at all possible, but it is unlikely that this will be possible.
 It is also unlikely that all firmware blobs contain such backdoors and it's also
 unlikely that these backdoors would be triggered lightly, as when it became
 active it's transmissions would become visible. Demand cooperation with Free and
-Open Source driver and firmware developers from manufactuers whenever possible.
+Open Source driver and firmware developers from manufacturers whenever possible.
