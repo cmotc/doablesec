@@ -109,9 +109,9 @@ this type of protection as well.
   * Peer-To-Peer: "Peer-To-Peer" refers to methods which require no intervention
 on the part of a central authority or service provider, such as Facebook or
 Google. AnTox and Tor Hidden Services are peer-to-peer networks which can be 
-used for communication without central authorities. Peer-to-peer encryption is
-also referred to as "End-To-End" encryption, and refers to encryption schemes
-where only the concerned parties are involved in the encryption and decryption
-process. This means that even if information is stolen in transit, it's meaning
-cannot be revealed by downgrading the strength of the encryption while the
-eavesdropping occurred.
+used for communication without central authorities. 
+  * "End to End: Peer-to-peer encryption is also referred to as "End-To-End"
+encryption, and refers to encryption schemes where only the concerned parties 
+are involved in the encryption and decryption process. This means that even if
+information is stolen in transit, it's meaning cannot be revealed by downgrading
+the strength of the encryption while the eavesdropping occurred.
