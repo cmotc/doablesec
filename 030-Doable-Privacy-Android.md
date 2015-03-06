@@ -24,7 +24,8 @@ Anti-Features which don't disqualify an app from being included in F-Droid must
 be explicitly listed in the app's description in order to allow the user the
 oppourtunity to make a conscious decision to use that app or not. Using F-Droid
 means you are much less likely to recieve a malicious app or update from your
-app store. Installing F-Droid will require you go
+app store. Installing F-Droid will require you go into your phone's settings and
+enable installing apps from "Untrusted" sources.
 
 ####How to Install F-Droid
 
